@@ -1,1 +1,1 @@
-# AI-ML-SIMULATION
+This repository describes the activity and its evolution on the learning, developing and teaching AI-SIMULATION based on mathematical point of view, technology and its interaction in different branches.  # AI-SIMULATION
