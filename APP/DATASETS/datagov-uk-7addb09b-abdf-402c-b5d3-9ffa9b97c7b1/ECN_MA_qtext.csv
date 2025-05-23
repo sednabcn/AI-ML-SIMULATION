@@ -1,0 +1,538 @@
+QCODEID,MCODE,LCODE,RID,FIELDNAME,FROM_DATE,TO_DATE,DATETYPE,QCODE,CONTINUING,SITECODE,DESCRIPTION
+64,MA,1,,,07-Jun-1993,07-Jun-1993,D,3018,,T01,Soil temperature at 30cm depth - value clearly in error (6999 recorded) - set to null
+63,MA,1,,,01-Jan-1993,31-Jul-1993,R,3017,Y,T01,Soil water recording problems - data missing
+27,MA,1,,SWATER,01-Sep-1993,07-Sep-1993,R,3089,,T01,"SWATER values above upper range. Dry period, but gypsum block may be suspect"
+28,MA,1,,,01-Jan-1993,19-Apr-1994,R,3090,Y,T01,"Albedometers not operational (ALBGRD,ALBSKY)"
+82,MA,1,,WETTMP,01-Jan-1994,19-Apr-1994,R,3125,N,T01,Wet bulb temperatures may be suspect - wick old and grimy
+81,MA,1,,SWATER,14-Jun-1994,14-Jun-1994,D,3124,N,T01,Soil Water values in error from 10.00 to 14.00 - set to null
+102,MA,1,,WETTMP,29-Jun-1994,11-Jul-1994,R,184,N,T01,Wet bulb reservoir/wick dry
+80,MA,1,,SWATER,27-Jun-1994,31-Aug-1994,R,3089,,T01,"SWATER values above upper range. Dry period, but gypsum block may be suspect"
+306,MA,1,,SWATER,16-Jun-1996,31-Aug-1996,R,3089,N,T01,"SWATER values above upper range. Dry period, but gypsum block may be suspect"
+793,MA,1,,,24-May-1999,26-May-1999,R,3571,N,T01,Unexplained loss of data.  They will get the logger looked at.
+794,MA,1,,,11-Aug-1999,07-Sep-1999,R,3571,N,T01,Unexplained loss of data.  They will get the logger looked at.
+3855,MA,1,,NETRAD,26-Feb-2004,11-Mar-2004,R,4008,N,T01,"Net radiometer removed 1600 on 26/02/04 and sent to ELE for re-coating, re-installed 1100 on 11/03/04"
+3856,MA,1,,,15-Apr-2004,21-May-2004,R,4009,N,T01,"Dry and wet bulb values corrected (problem with offset and slope wrongly set after calibration, these values now re-adjusted)"
+6868,MA,1,,,13-Aug-2008,19-Nov-2008,R,4690,N,T01,Loss of data 13-Aug to 25-Sep-2008 and 12- to 19-Nov-2008 due to problems downloading remotely and engineer accidently deleting data.
+140,MA,1,,NETRAD,01-Jan-1995,01-Jan-1995,D,3150,N,T02,NETRAD values below lower range of -100
+141,MA,1,,NETRAD,30-Jan-1995,30-Jan-1995,D,3150,N,T02,NETRAD values below lower range of -100
+194,MA,1,,STMP10,07-Jul-1994,01-Mar-1995,R,3179,N,T02,10cm soil thermometer values may be suspect - instrument replaced in March 1995
+195,MA,1,,STMP10,13-Mar-1995,13-Mar-1995,D,3180,N,T02,New 10cm soil thermometer inserted  - from 1700 on 13-MAR-95
+240,MA,1,,NETRAD,24-Mar-1995,24-Mar-1995,D,3214,N,T02,Net radiometer re-calibrated
+191,MA,1,,NETRAD,08-Jun-1995,30-Jun-1995,R,3177,N,T02,Net Radiometer dome contained condensation
+193,MA,1,,NETRAD,04-Jul-1995,04-Jul-1995,D,3178,N,T02,Net radiometer domes replaced
+192,MA,1,,NETRAD,04-Jul-1995,25-Jul-1995,R,3177,N,T02,Net Radiometer dome contained condensation
+241,MA,1,,NETRAD,01-Mar-1995,17-Aug-1995,D,3215,N,T02,Net radiometer had erratic fault causing some missing values. Logger problem found on 17-AUG-95 which had caused some values to be lost
+139,MA,1,,ALBGRD,07-Jul-1994,25-Aug-1995,R,3149,Y,T02,"ALBGRD values range from highly negative up to 1. Suspect calibration
+wrong. To be investigated with Didcot"
+206,MA,1,,ALBGRD,25-Aug-1995,16-Oct-1995,R,3191,N,T02,Albedometer removed for re-calibration
+207,MA,1,,ALBSKY,25-Aug-1995,16-Oct-1995,R,3191,N,T02,Albedometer removed for re-calibration
+210,MA,1,,WDIR,09-Oct-1995,13-Dec-1995,R,3193,N,T02,Wind direction values may be unreliable - cable found broken on 16-OCT-95. Known to be OK on 9-OCT-95.Replaced on 13-DEC-95
+211,MA,1,,,05-Dec-1995,13-Dec-1995,R,3194,N,T02,Intermittant logger problems between these dates
+209,MA,1,,ALBSKY,16-Oct-1995,01-Jan-1996,R,3192,N,T02,Albedometer calibration factors in error in program - to be back-corrected
+208,MA,1,,ALBGRD,16-Oct-1995,01-Oct-1996,R,3192,N,T02,Albedometer calibration factors in error in program - to be back-corrected
+377,MA,1,,RAIN,08-Jan-1997,08-Jan-1997,D,3290,N,T02,Raingauge blocked with ice 14 00hrs.
+388,MA,1,,SURWET,08-Jan-1997,08-Jan-1997,D,3301,N,T02,Snow cover on surface wetness indicator. 14 00hrs.
+390,MA,1,,NETRAD,08-Jan-1997,08-Jan-1997,D,3303,N,T02,Condensation in Net Radiometer upper dome. 14 00hrs.
+378,MA,1,,,13-Jan-1997,13-Jan-1997,D,3291,N,T02,All instruments washed between 0930 and 1030 hrs.
+379,MA,1,,NETRAD,21-Jan-1997,21-Jan-1997,D,3292,N,T02,Condensation in Net Radiometer upper dome.
+380,MA,1,,RAIN,13-Jan-1997,21-Jan-1997,R,3293,N,T02,Tipping bucket inside raingauge has been stuck in one position between 1000hrs on 13/1 and 1400hrs on 21/1.
+381,MA,1,,NETRAD,04-Feb-1997,04-Feb-1997,D,3294,N,T02,Water droplets on Net Radiometer upper dome.
+382,MA,1,,NETRAD,18-Feb-1997,18-Feb-1997,D,3295,N,T02,Condensation in Net Radiometer upper dome.
+383,MA,1,,NETRAD,03-Mar-1997,03-Mar-1997,D,3296,N,T02,Condensation in Net Radiometer upper and lower domes.
+385,MA,1,,SWATER,18-Mar-1997,18-Mar-1997,D,3298,Y,T02,Exchanged gypsum block for a Thetaprobe soil mosture sensor. First hourly mean with Thetaprobe sensor is at 1700 hrs when measurement changes from bars to Volumetric Water Content as a percentage. Disruption caused data losses between 2-4 pm.
+386,MA,1,,NETRAD,28-Mar-1997,28-Mar-1997,D,3299,N,T02,Condensation in Net Radiometer upper dome.
+399,MA,1,,,09-Jul-1997,09-Jul-1997,D,3312,N,T02,All instruments washed around 1500 GMT.
+397,MA,1,,NETRAD,09-Jul-1997,14-Jul-1997,R,3310,N,T02,Silica gel dessicant removed from net radiometer on 9/7 and replaced on 14/7 with re-dessicated gel.
+398,MA,1,,RAIN,11-Jul-1997,22-Aug-1997,R,3311,N,T02,Tipping mechanism jammed sometime betwwen 11/7/97 and 22/8/9. Readings up to 2400 GMT on 11/7 and from 1000 GMT 22/7/97are accurate.
+400,MA,1,,SURWET,19-Aug-1997,29-Aug-1997,R,3313,N,T02,Electric cable to surface wetness indicator snapped.
+665,MA,1,,NETRAD,28-May-1998,28-May-1998,D,3477,N,T02,Net radiometer dome was replaced on 28/5/98
+680,MA,1,,RAIN,03-Nov-1998,03-Nov-1998,D,3485,N,T02,Disconnected and cleaned rain guage
+681,MA,1,,RAIN,01-Sep-1998,03-Nov-1998,R,3486,N,T02,No rain data for this date range as the tipping bucket was not recording properly.  There is rain data for this period from another AWS stored in /users/ecn/indata/gle/ma/d806c.dat
+682,MA,1,,,17-Nov-1998,17-Nov-1998,D,3487,N,T02,No data for 10:00 due to problems with transfer record file
+683,MA,1,,,10-Dec-1998,10-Dec-1998,D,3488,N,T02,Replaced silica gel pack in logger box
+733,MA,1,,,24-Jun-1999,24-Jun-1999,D,3533,N,T02,Cleaned and sorted rainguage and re-anchored to concrete slab and levelled the guage.
+735,MA,1,,NETRAD,26-Jun-1999,01-Jul-1999,R,3535,N,T02,No net radiometer values from 26th June at 13:00 to 1st July.  Sheep chewed through the wire from the weather station to the logger.  Wire now repaired.
+734,MA,1,,,07-Jul-1999,07-Jul-1999,D,3534,N,T02,Levelled rain gauge again and re-connected earth wire from weather station tower (sheep damage).
+776,MA,1,,RAIN,07-Jul-1999,07-Jul-1999,D,3555,N,T02,RAIN GAUGE RE- ANCHORED TO CONCRETE BLOCK AS IT WAS DISTURBED BY SHEEP.  REPLACED AWS EARTH CABLE AS IT WAS CHEWED BY SHEEP.
+777,MA,1,,NETRAD,01-Jul-1999,08-Jul-1999,R,3556,N,T02,NET RADIOMETER VALUES ARE MISSING FROM 1/7/99 TO 8/7/99 AT 09:00.  SHEEP DAMMAGE TO CONNECTING WIRE.  WIRE RE-CONNECTED AND SOLDERED.
+779,MA,1,,,04-Aug-1999,04-Aug-1999,D,3558,N,T02,REPLACED SILICA GEL SATCHELS IN LOGGER BOX
+778,MA,1,,RAIN,03-Jul-1999,03-Sep-1999,R,3557,N,T02,NO RAINFALL READINGS FROM 3/7/99 TO 3/9/99 AT 21:00.  DAMMAGE BY SHEEP AND BROKEN CABLE.  RAIN GAUGE FIXED 3/9/99.
+798,MA,1,,NETRAD,05-Nov-1999,05-Nov-1999,D,3575,N,T02,"Net radiometer value not included, the value was out of range (-121.1)"
+799,MA,1,,,09-Dec-1999,09-Dec-1999,D,3576,N,T02,Replaced silica gel packs in logger box
+396,MA,1,,SWATER_T,01-Jul-1997,31-Dec-1999,R,3298,Y,T02,Exchanged gypsum block for a Thetaprobe soil mosture sensor. First hourly mean with Thetaprobe sensor is at 1700 hrs when measurement changes from bars to Volumetric Water Content as a percentage. Disruption caused data losses between 2-4 pm.
+860,MA,1,,WETTMP,19-Jan-2000,19-Jan-2000,D,3627,Y,T02,Changed wet bulb wick on wet bulb thermometer
+870,MA,1,,,01-Jun-2000,07-Jun-2000,R,3636,N,T02,"Rain guage blocked by debris, no rainfall due to inaccuracy"
+872,MA,1,,RAIN,16-Aug-2000,16-Aug-2000,D,3638,N,T02,Cleaned rain guage
+1572,MA,1,,,01-Apr-2001,01-Jun-2001,R,3750,Y,T02,The Albedometer ground values are incorrect and have not been sent.  The readings have been too low compared to last years values and the Sky values.
+1793,MA,1,,,12-Jul-2001,12-Jul-2001,D,3767,N,T02,"The soil 10cm temperature sensor was trampled and damaged by cattle, this was replaced."
+1794,MA,1,,NETRAD,11-Sep-2001,11-Sep-2001,D,3768,N,T02,"Net Radiometer dome was found burst, replaced at 08:00."
+1792,MA,1,,,01-Jul-2001,01-Oct-2001,R,3766,N,T02,Albedometer ground values removed at the site as they were felt to be incorrect when compared to last years values.
+2155,MA,1,,,12-Mar-2002,13-Mar-2002,R,3805,Y,T02,"day 71 and 72 - replaced the wet bulb, soil 10cm and soil 30cm sensors.  cables had been chewed by small mammals, the dry bulb sensor was re-calibrated with iced water.  All other sensors were washed and sillica jell replaced.  Removed the dome from the net radiometer to remove condensation.  The rain gauge was also checked and the cable also showing signs of rodent dammage - replaced"
+2154,MA,1,,,01-Jan-2002,01-Apr-2002,R,3804,N,T02,"day 2 11:00; Net Radiation value out of range.
+day 24 22:00 to day 71 at 14:00; Wet bulb temp producing high values.
+day 42 05:00, 16:00; day 47 11:00, 14:00; day 61 14:00; soil 10cm temp too high for time of year"
+2532,MA,1,,,08-May-2002,08-May-2002,D,3839,Y,T02,"Removed net radiation dome and dried off, replaced silica gel in all sensors and logger box."
+2533,MA,1,,,28-Aug-2002,28-Aug-2002,D,3840,Y,T02,Cleaned out raingauge and checked tipping mechanism.  Rain gauge was partially blocked with grass seed.
+2534,MA,1,,,09-Oct-2002,09-Oct-2002,D,3841,Y,T02,Cleaned out seeds from rain gauge (partially blocked) and checked tipping mechanism.
+2535,MA,1,,,20-Nov-2002,20-Nov-2002,D,3842,Y,T02,"Checked and callibrated dry and wet bulb 107 temperature sensors, changed wet bulb wick."
+2536,MA,1,,,06-Dec-2002,06-Dec-2002,D,3843,Y,T02,Changed logger battery with fully charged one.  Re-loaded logger program into logger.
+2537,MA,1,,,25-Dec-2002,31-Dec-2002,R,3844,N,T02,"Low battery power resulted in inaccurate readings from the dry and wet air temp. sensors, soil 10 cm, soil 30cm and soil Moisture theta probe.  These values have been removed."
+2538,MA,1,,,29-Dec-2002,01-Jan-2003,R,3845,N,T02,No values recorded due to low battery power to the logger
+3272,MA,1,,,01-Jan-2003,08-Jan-2003,R,3845,N,T02,No values recorded due to low battery power to the logger
+3273,MA,1,,,12-Jan-2003,12-Jan-2003,D,3845,N,T02,No values recorded due to low battery power to the logger
+3274,MA,1,,,12-Jan-2003,12-Jan-2003,D,3896,N,T02,Soil temperature values incorrect at 10cm and 30cm depths - values removed
+3275,MA,1,,,19-Jan-2003,25-Jan-2003,R,3845,N,T02,No values recorded due to low battery power to the logger
+3276,MA,1,,,25-Jan-2003,27-Jan-2003,R,3897,N,T02,Wet bulb values were not within the normal expected range - removed
+3277,MA,1,,,31-Jan-2003,02-Feb-2003,R,3845,N,T02,No values recorded due to low battery power to the logger
+3278,MA,1,,,03-Feb-2003,04-Feb-2003,R,3845,N,T02,No values recorded due to low battery power to the logger
+3279,MA,1,,,28-Feb-2003,28-Feb-2003,D,3898,N,T02,0900 - reset time on logger and checked battery power with voltmeter
+3280,MA,1,,,16-May-2003,29-May-2003,R,3899,N,T02,"Wet bulb values not accurate when compared to dry bulb especially at higher temperatures, and removed.  Checked wet bulb sensor cable for rodent damage or breaks in wire.  Re-callibrated sensor with ice water also checked calibration of dry bulb sensor."
+3281,MA,1,,,02-Jun-2003,01-Jul-2003,R,3900,N,T02,"Wet bulb temperatures recorded too low at higher temperatures when compared to dry bulb values, and removed.  At Julian day 182 (1-Jul-03) at 12:30 replaced 107 wet bulb sensor and calibrated in ice water, again, recalibrated dry bulb sensor."
+3282,MA,1,,,04-Jul-2003,04-Jul-2003,D,3901,N,T02,Repaired damage to weather station due to a break in by cattle.  Fixed and repositioned and checked raingauge.  Cleaned albedometer domes and replaced net radiometer domes.  Checked accuracy of raingauge to ensure correct tipping with a specified volume of water. Checked all cables for breaks due to trampling. Erected a line of barbed wire to deter future visits.
+3283,MA,1,,,11-Jul-2003,11-Jul-2003,R,3902,N,T02,Checked raingauge for accurate tipping
+3284,MA,1,,,23-Oct-2003,23-Oct-2003,D,3903,N,T02,"Serviced weather station.  Washed all sensors with warm soapy water. Lubricated all pivot points with WD40,  Checked battery power with voltmeter (13.4V).  Checked cables for dammage and calibrated all temperature sensors.  Replaced silica gel in logger and solarimeter and net radiometer.  Checked raingauge tipping bucket."
+3285,MA,1,,,15-Dec-2003,15-Dec-2003,D,3904,N,T02,Checked battery power with voltmeter (12.4 V) as day length decreases.
+2992,MA,1,,SWATER_T,01-Apr-1998,08-Jan-2004,R,3875,Y,T02,"There was a power cut on 1/4/98 and an older version of the program was installed by mistake so the theta probe values were incorrectly calculated.  These have been set to null, the Macaulay Institute is investigating if a back-correction can be made."
+4001,MA,1,,,09-Jan-2004,09-Jan-2004,D,4047,N,T02,14:00 - changed battery due to low voltage and re loaded program and set time
+4002,MA,1,,,14-Jan-2004,14-Jan-2004,D,4048,N,T02,11:40 - loaded logger with modified program to recalculate soil water potential in percent
+4003,MA,1,,,29-Jan-2004,29-Jan-2004,D,4049,N,T02,Snow covered surface wetness sensor and filled raingauge
+4004,MA,1,,,25-Feb-2004,25-Feb-2004,D,4049,N,T02,Snow covered surface wetness sensor and filled raingauge
+4005,MA,1,,,20-Apr-2004,06-May-2004,R,4050,N,T02,"Incorrect wind strength values, due to water penetration and corrosion at logger. These values were removed.  Re wired sensor at 08:00 on 6/5/04"
+4006,MA,1,,,02-Jun-2004,02-Jun-2004,D,4051,N,T02,08:30 - cleaned tipping bucket rain gauge and removed potential blockage.
+4007,MA,1,,,22-Sep-2004,22-Sep-2004,D,4052,N,T02,"Checked rain gauge tipping bucket and removed tips from record, checked volume with record to ensure correct calibration."
+4008,MA,1,,,10-Dec-2004,10-Dec-2004,D,4053,N,T02,"10:45 - changed logger battery as voltage was dropping, set time and reloaded logger program."
+4354,MA,1,,,18-Jan-2005,20-Jan-2005,R,4196,N,T02,Loss of data due to low battery power.
+4355,MA,1,,,21-Jan-2005,25-Jan-2005,R,4196,N,T02,Loss of data due to low battery power.
+4357,MA,1,,,26-Jan-2005,26-Jan-2005,D,3576,N,T02,Replaced silica gel packs in logger box
+4360,MA,1,,,26-Jan-2005,26-Jan-2005,D,4197,N,T02,Replaced battery
+4356,MA,1,,,05-Feb-2005,09-Feb-2005,R,4196,N,T02,Loss of data due to low battery power.
+4361,MA,1,,,09-Feb-2005,09-Feb-2005,D,4198,N,T02,"Replaced battery ( old battery voltage 11,2v) reloaded and compiled logger program."
+4362,MA,1,,,08-Jan-2005,30-Mar-2005,R,4199,N,T02,No rainfall readings recorded due to raingauge problems - small rodent damage and tipping errors.
+4363,MA,1,,,20-Apr-2005,20-Apr-2005,D,4200,N,T02,Replaced old raingauge cable and passed throgh reinforced hose to protect against rodent damage.
+4364,MA,1,,,29-May-2005,15-Jun-2005,R,4201,N,T02,"Raingauge partially blocked, unblocked."
+4365,MA,1,,,15-Jun-2005,15-Jun-2005,D,4202,N,T02,"New second hand raingauge fitted at 11:00, checked tipping mechanism and volume for tipping was ok."
+4366,MA,1,,,02-Sep-2005,02-Sep-2005,D,4203,N,T02,Checked raingauge tipping mechanism - all ok.
+4358,MA,1,,,28-Oct-2005,28-Oct-2005,D,3576,N,T02,Replaced silica gel packs in logger box
+4367,MA,1,,,28-Oct-2005,28-Oct-2005,D,4204,N,T02,Washed all sensors with soapy water.
+4359,MA,1,,,20-Dec-2005,20-Dec-2005,D,3576,N,T02,Replaced silica gel packs in logger box
+4368,MA,1,,,20-Dec-2005,20-Dec-2005,D,4205,N,T02,Replaced battery with fully charged battery
+4369,MA,1,,,20-Dec-2005,21-Dec-2005,R,4206,N,T02,"No data collected, slight blip when the logger program was compiled after a fully charged battery was connected.  Data was lost."
+4827,MA,1,,NETRAD,11-Jan-2006,11-Jan-2006,D,4330,N,T02,13:00 - hole in net radiometer dome - replaced dome and silica gel in column
+4828,MA,1,,,11-Jan-2006,18-Jan-2006,R,4331,N,T02,Loss of data due to low battery power.  18-Jan-2006 13:00 replaced battery with full powered battery and silica gel in logger.
+4829,MA,1,,,18-Jul-2006,18-Jul-2006,D,4332,N,T02,Checked raingauge and removed artificial tips of raingauge from dataset.
+4830,MA,1,,,27-Jul-2006,27-Jul-2006,D,4332,N,T02,Checked raingauge and removed artificial tips of raingauge from dataset.
+4832,MA,1,,,24-Oct-2006,24-Oct-2006,D,4334,Y,T02,"Theta probe known to be faulty, readings omitted from this date"
+4831,MA,1,,,22-Dec-2006,22-Dec-2006,D,4333,N,T02,Changed logger battery for fully charged one.  Washed all sensors with soapy water and installed new wet bulb wick.
+8832,MA,1,,,12-Jan-2011,23-Feb-2011,R,5065,N,T02,"New wind direction and relative humidity sensors on day 26 at 13:45.
+New tipping gauge fitted on day 54 at 12:00."
+7288,MA,2,,,02-Aug-2004,17-Aug-2004,R,4808,N,T02,"Incoming global radiation values out of range on the following Julian days and times: day 214 at 13:00 and 14:00, day 209 at 13:00, day 207 at 10:00, day 200 at 16:00, day 198 at 13:00, day 220 at 12:00, day 227 at 13:00, day 228 at 13:00"
+7290,MA,2,,,15-Jun-2005,15-Jun-2005,D,4810,N,T02,"Tipping bucket, relative humidity probe, Pyranometer and NR Lite Net Radiometer were all replaced."
+7291,MA,2,,,23-Jun-2005,23-Jun-2005,D,4811,N,T02,"Logger replaced with calibrated unit, data missing for 0800, 0900 and 1000 on this date."
+7293,MA,2,,,30-Aug-2008,31-Aug-2008,R,4813,N,T02,30-aug-2008 21:00 to 31-aug-2008 16:00 - no data recorded
+7295,MA,2,,,22-Oct-2008,22-Oct-2008,D,4815,N,T02,"10:00; annual maintenance visit to AWS, rainfall, humidity, net radiometer, incoming and reflective radiation and windspeed sensors were changed."
+7296,MA,2,,,28-Oct-2008,28-Oct-2008,D,4816,N,T02,Maintenance visit for wind direction sensor.
+7294,MA,2,,ALBGRD,22-Oct-2008,31-Dec-2008,R,4814,N,T02,No reflected radiation value was recorded.
+7297,MA,2,,,07-Oct-2009,07-Oct-2009,D,4817,N,T02,"Annual maintenance visit, replaced the ARG100 tipping bucket and the relative humidity sensor. All other sensors were working ok and left."
+7292,MA,2,,,01-Jan-2008,31-Dec-2009,R,4812,Y,T02,Surface wetness data; values recorded are suspected to be incorrect.  The logger program has been checked and the sensor replaced but the values produced do not seem to correlate with the rainfall values.
+8249,MA,2,,,20-Oct-2010,20-Oct-2010,D,5000,N,T02,"Annual maintenance visit, replaced the ARG100 tipping bucket and all other sensors except wind direction sensor (replaced 26-Jan-2011)."
+8248,MA,2,,SURWET,01-Jan-2010,31-Dec-2010,R,4812,N,T02,Surface wetness data; values recorded are suspected to be incorrect.  The logger program has been checked and the sensor replaced but the values produced do not seem to correlate with the rainfall values.
+9308,MA,2,,,09-Feb-2012,27-Dec-2012,R,5126,N,T02,"9-Feb-2012 10:00  to 11:00; Net radiation values slightly out of range and removed.
+30-Oct-2012 11:00; Net radiation value missing.  Annual service of AWS and cleaning of Rain Gauge. Sensors replaced: Relative Humidity, wind speed, wind direction, CMP6(Incoming radiation0, CMP3(Reflected Radiation) and NR lite sensor.
+27-Dec-2012 19:00 and 20:00; Net radiation values slightly out of range and removed."
+7289,MA,2,,,09-Jul-2004,31-Dec-2999,R,4809,Y,T02,AWS data from this station is sent direct to the Macaulay and is checked every 2 days for gross errors.  The AWS is checked every 3 - 4 weeks for signs of dammage.
+142,MA,1,,,13-Oct-1993,30-Apr-1995,R,3019,,T03,Numerous gaps in dataset - AWS logger faulty
+143,MA,1,,ALBGRD,13-Oct-1993,30-Apr-1995,R,3093,,T03,Albedo Ground calibration in error. Field set to null. Recorded values in D1XMA_HIL
+1812,MA,1,,WDIR,13-Oct-1993,26-Oct-1995,R,3769,N,T03,"Wind vane was wrongly oriented - only discovered in 1995. However, data (from 13-OCT-1993 to 26-OCT-1995,09:00 was back-corrected, and so should be reliable."
+1452,MA,1,,,07-Dec-2000,22-Nov-2001,R,3743,Y,T03,several gaps in data due to servicing
+5275,MA,1,,,01-Jan-2006,31-Mar-2006,R,4421,N,T03,CR10 datalogger replaced in early 2006 with a CR10X
+6049,MA,1,,,01-Jan-2007,31-Dec-2007,R,4574,Y,T03,"Albedometers giving negative readings during daytime, values removed when negative between 08:00 and 20:00.  AWS not serviced recently."
+6857,MA,1,,RAIN,27-Jun-2008,27-Jun-2008,D,4689,N,T03,Site concerned rainfall figure is inaccurate.  Guage tested by passing water through.
+6848,MA,1,,RAIN,16-Aug-2009,17-Aug-2008,R,4684,N,T03,"Sampler clogged, freed 17-Aug-2008 1700hrs, total rain for period 49.3."
+7608,MA,1,,,16-Dec-2009,16-Dec-2009,D,4894,N,T03,"AWS stopped functioning 16-Dec-2009, new array installed March 2010."
+9772,MA,1,,,12-Sep-2012,31-Dec-2999,R,5222,Y,T03,RH values set to 100 where >100 and no fault with instrumentation suspected
+57,MA,1,AWS1,,24-Jul-1991,24-Jul-1991,D,3010,,T04,24-JUL-91 has only 20 hours of data. Reason unknown
+48,MA,1,AWS1,,28-May-1991,10-Feb-1993,R,3001,,T04,"Data collected pre-ECN. No Soil Water, Surface Wetness, Albedo ground or Albedo sky sensors. Data not subject to ECN Quality Assurance procedures."
+56,MA,1,AWS1,,28-May-1991,10-Feb-1993,R,3009,,T04,Dataset recorded outwith ECN programme
+50,MA,1,AWS1,,10-Feb-1993,23-Mar-1993,R,3003,,T04,No records between 11.00 on 10-FEB-93 and 22.00 on 23-MAR-93 whilst new instruments fitted
+52,MA,1,AWS1,SURWET,23-Mar-1993,28-May-1993,R,3005,,T04,Surface Wetness indicator not working from 23-MAR-93 until 11.00 28-MAY-93
+51,MA,1,AWS1,SWATER,26-Mar-1993,29-Jun-1993,R,3004,,T04,Soil Water Potential Sensor not working (rabbit bit through cable) from 16.00 26-MAR-93 to 13.00 29-JUN-93
+350,MA,1,AWS1,RAIN,28-May-1991,02-Sep-1993,R,3270,N,T04,Raingauge heater in use. This does not comply with ECN protocol - removed on 3-SEP-93
+49,MA,1,AWS1,,28-May-1991,03-Sep-1993,R,3002,,T04,"Wind instruments at 2.5m - higher than ECN standard (2m). Also, 10cm soil temperature probe raised slightly so that the bare earth surface was level with the grass. Both re-positioned between 11.00 and 12.00 3-SEP-93."
+53,MA,1,AWS1,RAIN,03-Sep-1993,03-Sep-1993,D,3006,,T04,Wind generator for rainguage heater removed for repair
+54,MA,1,AWS1,RAIN,14-Oct-1993,14-Oct-1993,D,3007,,T04,Rainguage moved to Plynlimon pit
+55,MA,1,AWS1,RAIN,14-Oct-1993,14-Oct-1993,D,3008,Y,T04,Rainguage heater removed for repair
+176,MA,1,AWS1,NETRAD,30-Apr-1994,30-Apr-1994,D,3166,N,T04,Net radiometer dome replaced (tiny split)
+175,MA,1,AWS1,SWATER,07-Jul-1994,07-Jul-1994,D,3165,N,T04,Gypsum block replaced
+79,MA,1,AWS1,RAIN,08-Dec-1993,03-Aug-1994,R,3123,Y,T04,Rainfall figures set to null - raingauge malfunction
+177,MA,1,AWS1,WETTMP,26-Oct-1994,26-Oct-1994,D,3167,N,T04,Wet bulb wick replaced
+178,MA,1,AWS1,RAIN,26-Oct-1994,26-Oct-1994,D,3168,N,T04,Raingauge cleared of small amount soil
+179,MA,1,AWS1,RAIN,14-Dec-1994,18-Jan-1995,R,3169,N,T04,Rainfall figures set to null. Gauge faulty becuase water in socket
+315,MA,1,AWS1,SURWET,28-Sep-1996,31-Dec-1996,R,3257,Y,T04,Surface wetness indicator faulty - values set to null
+412,MA,1,AWS1,SURWET,09-Jan-1997,09-Jan-1997,D,3325,N,T04,Snow cover on surface wetness indicator.
+413,MA,1,AWS1,SURWET,29-Jan-1997,05-Feb-1997,R,3326,N,T04,Surface wetness indicator producing 'odd' data during period so values set to null and new indicator installed on 5-feb.
+414,MA,1,AWS1,SURWET,19-Feb-1997,19-Feb-1997,D,3327,N,T04,Snow cover on surface wetness indicator.
+453,MA,1,AWS1,STMP10,19-Feb-1997,19-Feb-1997,D,3366,N,T04,Snow cover on soil temperature probe (10cm).
+454,MA,1,AWS1,RAIN,19-Feb-1997,19-Feb-1997,D,3367,N,T04,Snow cover on rain gauge.
+437,MA,1,AWS1,NETRAD,02-Apr-1997,09-Apr-1997,R,3350,N,T04,Domes damaged on Net Radiometer (2/4). Repaired and replaced on 9/4.
+438,MA,1,AWS1,,18-Jun-1997,18-Jun-1997,D,3351,N,T04,"UV-B sensor installed, along with new logger program."
+439,MA,1,AWS1,STMP10,06-Aug-1997,06-Aug-1997,D,3352,N,T04,"10cm soil temperature probe dug up and relaid, 08:00 -09:00."
+440,MA,1,AWS1,NETRAD,17-Sep-1997,17-Sep-1997,D,3353,N,T04,"Silica gel replaced in Net Radiometer, 11:00 - 12:00."
+355,MA,1,AWS1,RAIN,01-Dec-1997,01-Dec-1997,D,3274,Y,T04,Raingauge not functioning - removed for repair
+442,MA,1,AWS1,,16-Dec-1997,14-Jan-1998,R,3355,N,T04,Switched logger program to old version due to loading problem during maintenance. UV-B sensor not catered for with old program.
+441,MA,1,AWS1,RAIN,01-Dec-1997,04-Mar-1998,R,3354,N,T04,Fault with raingauge. Values set to null.
+539,MA,1,AWS1,SURWET,04-Mar-1998,04-Mar-1998,D,3408,N,T04,Snow cover on surface wetness indicator.
+540,MA,1,AWS1,STMP10,04-Mar-1998,04-Mar-1998,D,3409,N,T04,Snow cover on 10cm soil temperature probe.
+1352,MA,1,,SWATER,01-Jul-2000,31-Dec-2000,R,3738,N,T04,Gypsum block data unreliable - July - Dec 2000 (gypsum block data will be removed prior to submission to CCU after December 2000)
+1432,MA,1,,SWATER,01-Jan-2001,30-Jun-2001,R,3742,Y,T04,"Gypsum block has been suffering gradual calibration drift and, with a
+change in the ECN specification for soil moisture to be recorded by
+Theta Probe, the Gypsum block will not be replaced and data from it will
+no longer be submitted to the CCU. Data prior to this data may be useful
+but it should be checked for evidence of calibration drift."
+1492,MA,1,,,01-Oct-2001,31-Dec-2001,R,3745,N,T04,"The net solarimeter was out of action from day 332, 1300 hours until day 339, 1200 hours. 
+The wind vane and anemometer were frozen up from day 359, 500hours until day 360, 1100 hours."
+3754,MA,1,,,04-Jun-2004,28-Jul-2004,R,3965,N,T04,"AWS down, data lost"
+4191,MA,1,,,20-Jul-2005,20-Jul-2005,D,4161,N,T04,"Net radiometer replaced after being attacked by birds, numbers may not be directly compable"
+4192,MA,1,,,09-Nov-2005,09-Nov-2005,D,4162,N,T04,"10cm temp probe dug up to check depth, seemed ok"
+4634,MA,1,,,08-Mar-2006,08-Mar-2006,D,4293,N,T04,"11am to 12 noon a large block of ice was removed from the funnel as it was blocked with soil/ice, this will result in lower rainfall values for this week, ice block was discarded and not measured."
+4888,MA,1,,,18-Oct-2006,22-Oct-2006,R,4338,N,T04,Data lost in download process
+4889,MA,1,,WSPEED,26-Sep-2006,11-Nov-2006,R,4339,N,T04,"Anemometer taken back to CEH for checking, there was a mis-match with manual readings, manual was much higher."
+5529,MA,1,,,24-Oct-2007,31-Oct-2007,R,4338,N,T04,Data lost in download process
+6329,MA,1,,,06-Feb-2008,06-Feb-2008,D,4606,N,T04,"Rain gauge was blocked with snow and ice, this was melted and drained through at about 1200."
+7108,MA,1,,,02-Dec-2009,03-Dec-2009,R,4755,N,T04,Data from logger lost.
+7109,MA,1,,,01-Dec-2009,31-Dec-2009,R,4756,N,T04,"Snow towards the end of Dec may make the rainfall recorded unreliable, rain gauge covered by drift."
+8108,MA,1,,NETRAD,01-Jan-2010,31-Jan-2010,R,4989,N,T04,"AWS 2 - four net radiation readings greater than 100 noted, but no reason to suspect instrumentation generally."
+8109,MA,1,,SURWET,01-Jun-2010,11-Aug-2010,R,4990,N,T04,"Surface wetness from June to August suspect and removed, sensor overgrown - alternative data available from site from old array."
+8428,MA,1,,,01-Jan-2011,16-Feb-2011,R,5022,Y,T04,AWS was not operating due to snowfall covering the solar panel
+8808,MA,1,,,06-Jul-2012,13-Jul-2012,R,5060,N,T04,"Missing data between 6- and 13-Jul-2012 , new program loaded to try to fix wetness probe problem"
+46,MA,1,AWS1,RAIN,03-Sep-1993,31-Dec-2999,R,3061,Y,T04,Raingauge heater removed to comply with protocol. Rainfall readings may be unreliable where raingauge blocked by snow
+632,MA,1,AWS1,SURWET,28-May-1993,31-Dec-2999,R,3465,Y,T04,The surface wetness indicator may not be reliable.
+6328,MA,1,,,01-Oct-2006,31-Dec-2999,R,4605,Y,T04,Wet and dry temperature probes removed.  Because of the age of this equipment it could not be replaced.  Dry temps available for this period from the 'ROVER' AWS sited next to the main AWS.
+2832,MA,1,,,30-Jan-2002,30-Jan-2002,D,3863,N,T05,Tipping bucket rain gauge connector dried out and replaced 30-Jan-2002
+2833,MA,1,,,25-Jun-2003,30-Jul-2003,R,3864,N,T05,Rain bucket blocked at some time between 25 June and 30 July 2003
+9752,MA,1,,SWATER,01-Jan-1995,31-Aug-2003,R,5221,N,T05,"Values range from -1 to 1, then >1000, no information as to what the units are, the heading for the column read Ave AWP (bar)."
+4016,MA,1,,,01-Sep-2003,01-Aug-2004,R,4059,N,T05,AWS offline Sept 2003 to July 2004.
+4015,MA,1,,NETRAD,19-Dec-2004,07-Mar-2005,R,4058,N,T05,Net radiation values < -100 may be due to sensor becoming wet internally.
+4013,MA,1,,,22-Sep-2004,02-Jun-2005,R,4056,N,T05,Wet temperature readings are adjusted by -0.49 as sensor installed 22-Sep-2004 was not callibrated until 2-Jun-2005 11:00.
+4014,MA,1,,,02-Jun-2005,02-Jun-2005,D,4057,N,T05,"AWS checked by M Stroud, CEH Wallingford.  11:00 and 12:00 readings: some sensors offline during re-calibration, set to null.  Net radiation sensor removed and dried, silica gel replaced."
+4190,MA,1,,,03-Dec-2005,04-Dec-2005,R,4160,N,T05,Albedo sky and ground sensors removed along with net radiometer arm 3-December-2005 13:00 to 4-December-2005 17:00.
+4189,MA,1,,,18-Oct-2005,09-Dec-2005,R,4159,N,T05,"18-October-2005 16:00 net radiometer developed a fault, removed.  Replaced 9-December-2005 11:00 by Mike Stroud.  All sensors tested and some calibrated on 9-December-2005 - all sensors seemed to be o.k."
+4947,MA,1,,,14-Dec-2006,14-Dec-2006,D,4342,N,T05,Wet and dry sensors immersed in ice therefore values not accurate for 13:00.
+4948,MA,1,,,14-Dec-2006,14-Dec-2006,R,4343,Y,T05,"One of the wet or dry sensors producing values approximately 0.8 too high, to be recalibrated."
+5728,MA,1,,,01-Jan-2007,31-Dec-2007,R,4528,N,T05,AWS not calibrated in 2007.
+7490,MA,1,,,26-Oct-2008,24-Mar-2009,R,4880,Y,T05,"26-Oct-2008 22:00 to 24-Mar-2009 17:00  - Wet & dry temp sensors, soil 10cm & soil 30cm temp sensors considered suspect, with frequent failures causing data gaps.  AWS not calibrated, new array installed 24-Mar-2009."
+8833,MA,1,,,09-Nov-2011,09-Nov-2011,D,5066,N,T05,"9/11/2011 12:00 AWS serviced by Campbell Scientific, CR1000m  logger swapped, new 12v battery."
+9228,MA,1,,,17-Aug-2012,26-Sep-2012,R,5119,N,T05,17/08/2012 07:00 to 26/09/2012 08:00 - Wind & direction values are suspect (lots of zero values)
+100,MA,1,,SWATER,27-Jan-1993,27-Jan-1993,D,3120,N,T06,SWATER values negative (out of range) - set to null
+62,MA,1,,SURWET,29-Mar-1993,25-May-1993,R,3016,,T06,Surface Wetness values known to be invalid between 14.00 29-MAR-93 and 24.00 25-MAY-93 - set to null
+87,MA,1,,,29-Mar-1993,08-Oct-1993,R,3015,N,T06,"Correction multipliers applied to ALBSKY(1.2627),ALBGRD(1.0999),NETRAD(1.0085),DRYTMP(0.9981),WETTMP(0.998),STMP10(0.9978),STMP30(1.0006),WDIR(0.992),SOLAR(0.7599) from 29-MAR-93,14:00 to 8-OCT-93,8:00"
+101,MA,1,,WETTMP,13-Oct-1993,16-Mar-1994,R,3121,N,T06,Wet bulb temperature suspect - wick may not have covered bulb completely
+197,MA,1,,SOLAR,08-Oct-1993,21-Mar-1994,R,3182,N,T06,Solarimeter removed for calibration check
+127,MA,1,,WETTMP,10-Mar-1995,10-Mar-1995,D,3139,N,T06,AWS: New wet bulb inserted
+128,MA,1,,NETRAD,10-Mar-1995,10-Mar-1995,D,3140,N,T06,New AWS Net Radiometer Dome fitted
+129,MA,1,,SURWET,10-Mar-1995,10-Mar-1995,D,3141,N,T06,Surface Wetness Indicator moved to recommended 6 ins. above ground
+545,MA,1,,SWATER,01-Jan-1998,30-Jun-1998,R,3414,Y,T06,Values incorrect. Gypsum block replaced with thetaprobe but not operating correctly yet.
+6288,MA,1,,RAIN,23-Oct-1998,11-Nov-1998,R,4603,N,T06,"Blockage between 23-Oct-1998 and 11-Nov-1998 and rainwater seeped through at a fairly constant rate registering 0.2mm every couple of hours. Obstruction cleared between 11:00 and 12:00 11-Nov-1998 resulting in large rainfall value of 36.2mm. May have been a loss of 18.5mm of rainwater due
+to overspill during this period."
+848,MA,1,,,11-Jan-2000,26-Jan-2000,R,3617,N,T06,Some missing values as there was a problem while fitting the Theta Probe.  Its is now in operation and any suspect data was removed at the site.
+4807,MA,1,,,03-Nov-2003,03-Nov-2003,R,4329,N,T06,Theta probe re-buried 3-Nov-2003 14:20 at correct 20cm depth
+3841,MA,1,,,01-Oct-2004,30-Nov-2004,R,3965,N,T06,"AWS down, data lost"
+4058,MA,1,,SWATERT,11-Apr-2005,11-Apr-2005,D,4090,N,T06,13:00  found damage to theta-probe cabling although only to outer sheath and armour/ground. Cut out damaged section and repaired wiring using electrical block and electrical tape.
+4057,MA,1,,NETRAD,11-Apr-2005,12-Apr-2005,R,4089,N,T06,Disconnected net-radiometer wiring to accommodate the replacement of upper dome which had collapsed.  Reconnected 12/04/2005 09:58.
+4060,MA,1,,,03-May-2005,03-May-2005,D,4092,N,T06,11:00 to 12:00 cleaned sensors. Kipp solarimeter domes full of condensation.
+4061,MA,1,,,05-May-2005,05-May-2005,D,4093,N,T06,13:00 tried changing silica gel in pyranometer but top of canister sheared off.
+4062,MA,1,,,10-May-2005,10-May-2005,D,4094,N,T06,10:00 removed pyranometer to send to Campbell for servicing.
+4059,MA,1,,NETRAD,22-Apr-2005,17-May-2005,R,4091,N,T06,"Net radiometer removed for servicing 22-Apr-05, re-instated 17-May-05 with logger program updated with new multiplier."
+4063,MA,1,,,23-Jun-2005,23-Jun-2005,D,4095,N,T06,"10:00 to 12:00 grass was cut; rain gauge, net-radiometer, albedo sensors, wetness sensor and solar panel were all cleaned.  This whole period should be seen as maintenance as shadows were being cast on aerial sensors throughout the grass cutting."
+4159,MA,1,,,11-Jul-2005,11-Jul-2005,D,4133,N,T06,"13:00 to 15:00 - installation of Kipp & Zonen Pyranometer s/n 920700, climbing a ladder.  All aerial sensors on mast will have been affected by human presence i.e. abedo sky/ground, net-radiometer, wind speed/direction."
+4160,MA,1,,WETTMP,18-Jul-2005,18-Jul-2005,D,4134,N,T06,09:00 - changed wet bulb wick
+4161,MA,1,,,02-Aug-2005,02-Aug-2005,D,4135,N,T06,"12:00 to 13:00 - cleaned aerial sensors: rain gauge, net-radiometer, albedo sky/ground, anemometer, wetness sensor and solar panel."
+4162,MA,1,,,01-Sep-2005,01-Sep-2005,D,4136,N,T06,"09:00 to 10:00 - cleaned aerial sensors: net-radiometer, albedo sky/ground, wetness sensor, solar panel."
+4176,MA,1,,,03-Oct-2005,03-Oct-2005,D,4148,N,T06,10:00 to 11:00 : Repositioned datalogger which meant undoing wetness sensor.
+4177,MA,1,,,10-Oct-2005,10-Oct-2005,D,4149,N,T06,"09:00 to 10:00: cleaned net-radiometer, albedo sky/ground, wetness sensor, rain gauge and solar panel."
+4178,MA,1,,,17-Oct-2005,17-Oct-2005,D,4150,N,T06,09:00 to 10:00: changed the aspect of the wetness sensor from approx south-east to north.
+4179,MA,1,,,07-Nov-2005,07-Nov-2005,D,4151,N,T06,"14:00 to 16:00: inserted new soil moisture probe at a depth of 20cm (placement
+Horizontal) - Water Content Reflectometer type CS616 from Campbell Scientific. Updated DLD instruction program from DB_D3216.DLD to
+RB_D3216.DLD"
+4180,MA,1,,,01-Nov-2005,07-Nov-2005,D,4152,N,T06,Lost data from 10:00 01/11/2005 to 16:00 07/11/2005 due to fuse blowing during re-wiring connection for soil moisture probe to accommodate CS616.
+4181,MA,1,,,08-Nov-2005,08-Nov-2005,D,4153,N,T06,14:00 to 15:00: resent DLD program to logger with correct number of cycles i.e 150 for CS616.  All sensors now on-line.
+4182,MA,1,,,14-Nov-2005,14-Nov-2005,D,4154,N,T06,"10:00 to 11:00: cleaned net-radiometer, albedo sensors, wetness sensor and solar panel.  Changed wick to wet bulb thermistor and topped up reservoir."
+4183,MA,1,,WETTMP,15-Nov-2005,18-Nov-2005,R,4155,N,T06,Wet bulb reading higher than dry bulb during the hours of 16:00 to 22:00 inclusive 15- to 17-Nov-2005.  18-Nov-2005 11:00 to 12:00 found wet bulb wick to be dry.  Topped up reservoir and wetted wick making sure it was fully inserted into wick inlet of reservoir.
+4184,MA,1,,,21-Nov-2005,21-Nov-2005,D,4156,N,T06,"14:00 to 15:00: grass cut, cleaned rain gauge"
+4185,MA,1,,,05-Dec-2005,05-Dec-2005,D,4157,N,T06,"10:00 to 11:00: cleaned surfaces of net-radiometer, albedo sensors, wetness sensor, rain gauge and solar panel. Topped up reservoir of wet bulb thermometer."
+4730,MA,1,,,05-Jan-2006,05-Jan-2006,D,4311,N,T06,15:00 to 16:00 cleaned aerial sensors except rain gauge.
+4731,MA,1,,,09-Feb-2006,09-Feb-2006,D,4312,N,T06,10:00 to 12:00 servicing of AWS by Mike Stroud (CEH Wallingford).
+4732,MA,1,,,15-Feb-2006,15-Feb-2006,D,4313,N,T06,11:00 to 12:00 servicing of net-radiometer and wet/dry bulb screen by Mike Stroud (CEH Wallingford).
+4733,MA,1,,,03-Apr-2006,03-Apr-2006,D,4314,N,T06,09:00 to 10:00 changed wick to wet bulb and topped up reservoir with distilled water.
+4734,MA,1,,,04-Apr-2006,04-Apr-2006,D,4315,N,T06,08:00 to 09:00 pyranometer- replaced silica gel; cleaned domes and radiation shield.
+4735,MA,1,,,04-May-2006,04-May-2006,D,4316,N,T06,08:00 to 09:00 cleaned aerial sensors except rain gauge.
+4736,MA,1,,,05-Jun-2006,05-Jun-2006,D,4317,N,T06,"10:00 to 11:00 cleaned net-radiometer, albedos, rain gauge, solar panel; changed wet bulb wick and topped up reservoir."
+4737,MA,1,,,20-Jun-2006,20-Jun-2006,D,4318,N,T06,09:00 to 11:00 grass was cut around ECN AWS.
+4738,MA,1,,,18-Sep-2006,18-Sep-2006,D,4319,N,T06,13:00 to 14:00 changed wick to wet bulb and topped up reservoir with distilled water.
+4949,MA,1,,,16-Oct-2006,16-Oct-2006,D,4344,N,T06,"09:00 to 10:00 : Cleaned rain gauge, albedo sensors, wetness sensor and net-radiometer with de-ionised water."
+4950,MA,1,,,10-Nov-2006,10-Nov-2006,D,4345,N,T06,10:00 to 11:00 : Cut grass around instruments.
+4951,MA,1,,,18-Dec-2006,18-Dec-2006,D,4346,N,T06,"10:00 to 11:00 : Cleaned albedo sensors, wetness sensor, net-radiometer and solar radiometer with de-ionised water.  Changed silica gel to both net-radiometer and solar radiometer."
+4952,MA,1,,,22-Jan-2007,22-Jan-2007,D,4347,N,T06,10:00 to 11:00: Changed wet-bulb wick.
+5412,MA,1,,,23-Apr-2007,23-Apr-2007,D,4458,N,T06,"09:00 to 10:00 - cleaned net radiometer, albedo sky and ground, solar panel"
+5414,MA,1,,,22-May-2007,22-May-2007,D,4460,N,T06,14:00 to 15:00 - measurements lost due to failed attempt to install new wind sensors
+5413,MA,1,,WETTMP,04-Jun-2007,04-Jun-2007,D,4459,N,T06,09:00 to 10:00 - replaced wet bulb wick
+5415,MA,1,,,05-Jun-2007,05-Jun-2007,D,4461,N,T06,14:00 to 15:00 - measurements lost due to the installation of new wind sensors - old wind sensors decommissioned
+5416,MA,1,,,25-Jun-2007,25-Jun-2007,D,4462,N,T06,14:00 to 15:00 - replaced silica gel to net-radiometer and Kipp solarimeter; cleaned all aerial sensors
+5417,MA,1,,,28-Jun-2007,28-Jun-2007,D,4463,N,T06,10:00 to 11:00 - cut grass around AWS
+5418,MA,1,,,24-Sep-2007,24-Sep-2007,D,4459,N,T06,09:00 to 10:00 - replaced wet bulb wick
+5588,MA,1,,,26-Nov-2007,26-Nov-2007,D,4499,N,T06,10:00 to 11:00 : Cut grass around masts.
+5589,MA,1,,,03-Dec-2007,03-Dec-2007,D,4500,N,T06,09:00 to 10:00 : cleaned aerial sensors on main mast and rain gauge.
+6528,MA,1,,,14-Jan-2008,14-Jan-2008,D,4645,N,T06,10:00 to 11:00 : cleaned aerial sensors and changed wet bulb wick.
+6529,MA,1,,,18-Feb-2008,18-Feb-2008,D,4646,N,T06,14:00 to 15:00 : cleaned pyranometer and replaced silica gel to pyranometer and net radiometer
+6228,MA,1,,RAIN,21-Apr-2008,21-Apr-2008,R,4598,N,T06,"Raingauge filter blocked with a little water in funnel, removed filter allowing water to enter gauge and cleaned it. Blockage seems to have occurred approximately 19:00 21-Apr-2008, some water was able to drip through though.
+Have therefore removed rainfall data from 1900 21-Apr-2008 to 1000 22-Apr-2008."
+6229,MA,1,,,28-Apr-2008,28-Apr-2008,D,4599,N,T06,09:00 to 10:00 : Cleaned net-radiometer and albedo sky/ground sensors.
+6230,MA,1,,,12-May-2008,12-May-2008,D,4600,N,T06,09:00 to 10:00 : Changed wet bulb wick.
+6442,MA,1,,,17-Jun-2008,17-Jun-2008,D,4622,N,T06,"09:30 to 11:00 : Grass around AWS was cut. New cutting regime, the grass is to be cut more regularly, at same time as main weather station, rather than twice a year in June and October to coincide with Park Grass."
+6443,MA,1,,,22-Jul-2008,22-Jul-2008,D,4623,N,T06,16:30: Grass around AWS was cut.
+6444,MA,1,,,12-Aug-2008,12-Aug-2008,D,4624,N,T06,15:45: Grass around AWS was cut.
+6445,MA,1,,,21-Aug-2008,21-Aug-2008,D,4625,N,T06,14:00 to 15:00 : Changed silica gel to net-radiometer and Kipp solarimeter; cleaned domes.
+6446,MA,1,,,22-Aug-2008,22-Aug-2008,D,4626,N,T06,09:00 to 10:00 : Replaced battery units.
+6447,MA,1,,,26-Aug-2008,26-Aug-2008,D,4627,N,T06,15:30 to 16:00: Grass around AWS was cut.
+6448,MA,1,,,10-Sep-2008,10-Sep-2008,D,4627,N,T06,15:30 to 16:00: Grass around AWS was cut.
+6449,MA,1,,,22-Sep-2008,22-Sep-2008,D,4627,N,T06,15:30 to 16:00: Grass around AWS was cut.
+6489,MA,1,,WETTMP,31-Oct-2008,31-Dec-2008,R,4642,N,T06,At various times the wet bulb reading is higher than the dry bulb; probable cause wet bulb wick frozen.
+6928,MA,1,,WETTMP,09-Apr-2009,09-Apr-2009,D,4695,N,T06,08:00 to 09:00 - changed wet bulb wick.
+6929,MA,1,,,20-Apr-2009,20-Apr-2009,D,4696,N,T06,08:15 to 08:35 - grass cut.
+6930,MA,1,,,15-Jun-2009,15-Jun-2009,D,4697,N,T06,08:00 to 16:00 - grass cut with different equipment during day.
+6931,MA,1,,,01-Jan-2009,30-Jun-2009,R,4698,N,T06,"Wet bulb found to be higher than dry bulb on occasion: values not deleted.  
+Possible that wet bulb frozen or dried out."
+7335,MA,1,,,26-Aug-2009,26-Aug-2009,D,4826,N,T06,Grass was cut
+7336,MA,1,,,07-Oct-2009,07-Oct-2009,D,4827,N,T06,Found rain gauge blocked - moved reading of water in funnel to 09:00 day 280 (7-Oct-2008) as there had been no rain between the hours of  09:00 and       13:00 - don't know when blockage occurred but funnel was empty at 09:00 day 278 (5-Oct-2009).
+7337,MA,1,,,19-Oct-2009,19-Oct-2009,D,4828,N,T06,09:00 to 10:00 replaced silica gel to net radiometer and pyranometer ; cleaned domes.
+7338,MA,1,,,01-Dec-2009,01-Dec-2009,D,4829,N,T06,09:00 to 10:00 replaced wet bulb wick.
+7339,MA,1,,RAIN,16-Dec-2009,22-Dec-2009,R,4830,N,T06,Rain Gauge had snow present in funnel.
+7340,MA,1,,,22-Dec-2009,22-Dec-2009,D,4831,N,T06,"10:00 to 11:00 : found wind vane and anemometer frozen up,  unfrozen by holding. Looking at data freezing took place sometime after 01:00."
+7169,MA,1,,RAIN,22-Dec-2009,23-Dec-2009,R,4762,N,T06,"23-DEC-2009 13:00 - Emptied rain gauge of snow into a pre-weighed collection bottle, brought back to lab and weighed. Calculated amount of rainfall using equation : weight of water (g) (1g H2O = 1cm3 H2O) / cross-sectional area (pi x r x r) (cm3) = cm of rain water x10 = mm of rain water, giving value of 7.8.  No snow or rain has fallen today or yesterday (22/12/2009) since last recorded measure."
+7341,MA,1,,,01-Jul-2009,31-Dec-2009,R,4642,N,T06,At various times the wet bulb reading is higher than the dry bulb; probable cause wet bulb wick frozen.
+7342,MA,1,,,06-Jan-2010,06-Jan-2010,D,4832,N,T06,13:00  - measured snow trapped in rain gauge funnel as 7.9mm
+7343,MA,1,,,08-Jan-2010,08-Feb-2010,R,4833,N,T06,09:00 - measured snow trapped in rain gauge funnel as 0.1mm.  Otherwise snow thawed or melted on contact with funnel.
+7344,MA,1,,,12-Apr-2010,12-Apr-2010,D,3639,N,T06,Changed wet bulb wick
+7334,MA,1,,,01-Jan-2010,30-Apr-2010,R,4642,N,T06,At various times the wet bulb reading is higher than the dry bulb; probable cause wet bulb wick frozen.
+7694,MA,1,,WETTMP,14-Jun-2010,14-Jun-2010,D,3639,N,T06,Changed wet bulb wick
+7828,MA,1,,NETRAD,31-Aug-2010,02-Sep-2010,R,4945,N,T06,"31-AUG-2010 09:00 to 11:00 -  found upper dome of net-radiometer damaged and lower dome full of water.  Replaced both domes and changed silica gel.
+02-SEP-2010 10:00 to 11:00 -   checked on domes following replacement. Quite heavy condensation on inside of domes. Removed domes wiped dry with tissue and replaced. Checked silica gel which was okay."
+133,MA,1,,NETRAD,03-May-1994,03-May-1994,D,3145,N,T07,Net Radiometer values above range maximum of 700
+134,MA,1,,NETRAD,19-Jun-1994,19-Jun-1994,D,3145,N,T07,Net Radiometer values above range maximum of 700
+135,MA,1,,NETRAD,26-Jul-1994,26-Jul-1994,D,3145,N,T07,Net Radiometer values above range maximum of 700
+136,MA,1,,ALBGRD,01-Nov-1993,01-Mar-1995,R,3146,Y,T07,Albedometer-ground - values look strange - range is only 54 to 84! Needs investigation
+525,MA,1,,NETRAD,23-Jan-1997,23-Jan-1997,D,3394,N,T07,Silica gel changed.
+526,MA,1,,WETTMP,26-Feb-1997,26-Feb-1997,D,3395,N,T07,Wet bulb probe replaced.
+527,MA,1,,NETRAD,19-Mar-1997,19-Mar-1997,D,3396,N,T07,Net radiometer domes changed.
+639,MA,1,,SWATER_T,06-Aug-1997,06-Aug-1997,D,3469,N,T07,Theta-probe installed and operating
+528,MA,1,,WETTMP,05-Sep-1997,05-Sep-1997,D,3397,N,T07,Wet bulb sensor changed as suspect values logged during August.
+728,MA,1,,WETTMP,01-Aug-1997,05-Sep-1997,R,3528,N,T07,Wet bulb readings suspect.
+766,MA,1,,SWATER,16-Jul-1999,16-Jul-1999,D,3547,N,T07,SWATER 16/7/99 03:00 to 06:00 have been removed. Values showed a huge jump accompanied with odd battery voltages suggesting some sort of short. Other data seemed unaffected and the instruments have been ok since but Gordon thought it best to remove data.
+775,MA,1,,SWATER,16-Jul-1999,16-Jul-1999,,3554,,T07,Records for soil moisture for July 16 (300 - 600) have been removed. Values showed a huge jump accompanied with very odd battery voltage output suggesting some sort of short.  Other data seemed unaffected and the instrument has been ok since.
+841,MA,1,,,29-Oct-1999,03-Nov-1999,R,3611,N,T07,Cattle broke into the station on 29th October. While damage appeared to be minimal a wire was torn from the albedometer and this appeared to affect the operation of several other instruments for reasons which are unclear. Therefore all data removed.
+843,MA,1,,,01-Dec-1999,31-Dec-1999,D,3613,N,T07,All data removed whenever batter voltage less than 10 volts due to odd values occuring when there was dull weather i.e. the solar panel not working efficiently.   Wet bulb values removed as the sensor was found to be reading high compared with the dry bulb.
+850,MA,1,,WETTMP,01-Jan-2000,31-Mar-2000,R,3618,Y,T07,Still problems with the web bulb sensors.  OK for a period and then drift off so most of the data has been removed for this period.  Have changed the sensors with the dry bulb sensor as it seems to be better sealed against moisture to see if this helps.
+2173,MA,1,,,07-Apr-2002,07-Apr-2002,D,3807,N,T07,"At 0800 there is an unusually low soil moisture value recorded together with a low battery voltage recording suggesting some fault.  However, everything around this seems to be OK so the data were left in the database."
+2172,MA,1,,,01-Nov-2002,31-Dec-2002,R,3806,N,T07,There was a fault with the albedometer readings.  The albedometer was tested on another logger and the readings were expected.  So there was a fault somewhere in the logger connections probably due to moisture - so these data were removed
+2813,MA,1,,,16-Jun-2003,16-Jun-2003,D,3862,N,T07,The sky albedometer dome was found to be slightly damaged by birds on 16 June and was replaced later that day.
+2892,MA,1,,,01-Sep-2003,30-Sep-2003,R,3871,N,T07,Some soil moisture records for September removed at site due to low records associated with low battery values.
+3712,MA,1,,,09-Mar-2004,09-Mar-2004,D,3645,N,T07,AWS serviced
+3795,MA,1,,RAIN,08-Jul-2004,08-Jul-2004,D,3297,N,T07,New raingauge installed.
+3794,MA,1,,WSPEED,08-Jul-2004,02-Aug-2004,R,3989,N,T07,"Broken wire on wind speed gauge, data lost."
+3796,MA,1,,STMP10,12-Nov-2004,12-Nov-2004,D,3990,N,T07,10cm soil temperature sensor replaced.
+4069,MA,1,,SWATER,01-Apr-2005,31-May-2005,R,4101,N,T07,April/May 2005 readings may be suspect - June readings omitted until probe replaced.
+4727,MA,1,,,25-Apr-2006,25-Apr-2006,D,4308,Y,T07,"AWS serviced. Some sensors found to be drifting, offsets adjusted to account for this."
+5291,MA,1,,,09-Jan-2007,10-Jan-2007,R,4427,N,T07,Missing values around 9/10 January due to the battery going flat in the dull weather.  Soil moisture data still missing for all months.
+58,MA,1,,SWATER,27-Oct-1992,10-Jun-1993,R,3011,,T08,"Gypsum block (SWATER) at depth of 25cm (ECN standard is 20cm). Soil water potential and surface water measurements are non-standard, and stored as DATID=4 (fields in DATID=3 set to null"
+59,MA,1,,SWATER,10-Jun-1993,10-Jun-1993,D,3012,,T08,"AWS serviced. 1 hour data lost. Gypsum block (SWATER) replaced, new one wetted and located at ECN standard depth of 20cm. Net radiometer domes replaced."
+60,MA,1,,SWATER,10-Jun-1993,14-Jun-1993,R,3013,,T08,Gypsum block (SWATER) wetted on 10-JUN-93 - may affect SWATER values for a few days afterwards. (14-JUN-93 set as arbitrary limit).
+131,MA,1,,ALBGRD,27-Oct-1992,27-Feb-1995,R,3143,N,T08,Albedo-ground multiplier not optimal at 72.674. Changed to 95.42 on 27-FEB-95. To be back-corrected
+132,MA,1,,ALBSKY,27-Oct-1992,27-Feb-1995,R,3144,N,T08,Albedo-sky multiplier not optimal at 87.704. Changed to 97.66 on 27-FEB-95. To be back-corrected
+130,MA,1,,NETRAD,03-Mar-1995,03-Mar-1995,D,3142,N,T08,Net Radiometer value -152 out of range. Left in as unusually bright day with snow on ground
+200,MA,1,,STMP30,27-Oct-1992,13-Dec-1995,R,3185,N,T08,"Soil thermometer at 30cm checked on 13-DEC-95 and found to be biased by +5.7 degrees! Possible drift error, but unknown start date"
+204,MA,1,,WETTMP,13-Dec-1995,13-Dec-1995,D,3189,N,T08,Wet bulb thermometer found to be biased by +0.279 degrees. Logger program altered to correct from 13-DEC-95
+205,MA,1,,DRYTMP,13-Dec-1995,13-Dec-1995,D,3190,N,T08,Dry bulb thermometer found to be biased by +0.12 degrees. Logger program altered to correct from 13-DEC-95
+780,MA,1,,STMP10,13-Mar-1992,13-Dec-1995,R,3559,N,T08,Soil temperature values suspect from 1992-1995 - instrument error and drift. Values set to null in d1ma_wyt. Original data stored in table suspect_d1ma_wyt.
+781,MA,1,,STMP30,13-Mar-1992,13-Dec-1995,R,3559,N,T08,Soil temperature values suspect from 1992-1995 - instrument error and drift. Values set to null in d1ma_wyt. Original data stored in table suspect_d1ma_wyt.
+198,MA,1,,SWATER,14-Oct-1995,20-Dec-1995,R,3183,N,T08,Faulty gypsum block removed and replaced with new on 20-DEC_95
+199,MA,1,,STMP10,13-Dec-1995,20-Dec-1995,R,3184,N,T08,Faulty soil thermometer removed and replaced with new on 20-DEC-95
+201,MA,1,,STMP30,13-Dec-1995,20-Dec-1995,R,3186,N,T08,Faulty soil thermometer at 30cm replaced with new on 20-DEC-95
+202,MA,1,,NETRAD,13-Dec-1995,20-Dec-1995,R,3187,N,T08,Net radiometer sensor removed to re-black active surfaces. Temporary sensor inserted in mean time
+203,MA,1,,WSPEED,13-Dec-1995,10-Jan-1996,R,3188,N,T08,Wind speed sensor removed to replace reed switch. Temporary sensor inserted in mean time
+537,MA,1,,STMP10,04-Nov-1997,04-Nov-1997,D,3406,N,T08,Repaired probe replaced and recalibrated.
+538,MA,1,,SWATER,04-Nov-1997,04-Nov-1997,D,3407,N,T08,Gypsum block replaced.
+601,MA,1,,,30-Apr-1998,30-Apr-1998,D,3444,N,T08,Replaced cracked upper (sky) dome of net solarimeter and silica gel on AWS
+602,MA,1,,NETRAD,30-Apr-1998,30-Apr-1998,D,3445,N,T08,Day 120 12:00 not data for net radiation
+684,MA,1,,,02-Nov-1998,06-Nov-1998,R,3489,N,T08,The logger was removed for IH to program in the theta probe. The solar radiation and dry bulb temp were recorded using a different instrument. This data wasn't loaded into the main tables but is available in users/ecn/indata/wyt/ma/d788b
+788,MA,1,,,26-May-1999,26-May-1999,D,3566,N,T08,Met area strimmed
+789,MA,1,,,23-Jul-1999,23-Jul-1999,D,3567,N,T08,Met area strimmed
+787,MA,1,,,10-Sep-1999,10-Sep-1999,D,3565,N,T08,AWS serviced.  Changed wet offset from -2.2 to -2.6 and 10cm soil offset from -0.77393 to -1.39
+786,MA,1,,STMP30,21-Jul-1999,06-Nov-1999,R,3564,N,T08,Probe checked as it was 1.2C higher than manual temperature.  It read ok in ice water. May have been buried at the wrong depth on6/11/99.  Over winter it had not varied greatly from manual and so cannot alter data.
+856,MA,1,,STMP30,02-Feb-2000,01-Apr-2000,R,3623,N,T08,"Probe reading 1C too high (ok previous week) on day 31 compared to manual reading, rising to 2.4C by day 81.  Probe disconnected from day 81 to day 91."
+879,MA,1,,,25-Aug-2000,25-Aug-2000,D,3645,N,T08,AWS serviced
+2132,MA,1,,,07-Nov-2002,07-Nov-2002,D,3800,N,T08,"Serviced AWS, changed 10cm soil temperature offset from -1.34 to -1.66. Altered clock as had been 7 minutes slow."
+2812,MA,1,,,01-Jan-2003,01-Jun-2003,R,3861,N,T08,10cm soil data removed by site - probe removed due to out of range readings
+3098,MA,1,,,07-Nov-2003,07-Nov-2003,D,3645,N,T08,AWS serviced
+3099,MA,1,,,07-Nov-2003,07-Nov-2003,D,3880,N,T08,Wet bulb offset changed from -2.68 to -2.0
+3652,MA,1,,,01-Mar-2004,01-Mar-2004,D,3957,N,T08,Wet bulb offset changed from -2.0 to -1.7 after comparison with another AWS running along side and checking in iced water
+3769,MA,1,,,13-Aug-2004,13-Aug-2004,D,3977,N,T08,"Plastic domes were replaced as the upper one had been pecked by birds,
+and the silica gel was replaced"
+3770,MA,1,,,03-Sep-2004,03-Sep-2004,D,3978,N,T08,Silica gel was again replaced as there was a bit of condensation in the domes.
+3789,MA,1,,,12-Nov-2004,12-Nov-2004,D,3984,N,T08,"Serviced AWS, wet bulb offset changed from -1.7 to -2.3, 
+and dry bulb offset changed from -0.958 to -0.754"
+4070,MA,1,,,12-Apr-2005,04-May-2005,R,4102,N,T08,"Dry air temperature missing 12-Apr-2005 22:00 to 21-Apr-2005 11:00. The wick then taken off the wet bulb and this data then used as dry air temp, so wet bulb temp data missing from day 21-Apr-2005 12:00 to day 4-May-2005 10:00."
+4193,MA,1,,,29-Jun-2005,19-Oct-2005,R,4163,N,T08,"Problems with rainfall guage due to moisture getting into connector - data missing 29-Jun-2005 11:00 to 6-Jul-2005 04:00, 19-Jul-2005 19:00 to 30-Jul-2005 18:00, 21-Sep-2005 07:00 to 27-Sep-2005 13:00, and 19-Oct-2005 11:00 to 20-Oct-2005 05:00. Roving AWS rainfall data available for period 24-Aug-2005 07:00 to 21-Sep-2005 06:00. A spare rainfall guage was temporarily used from 27-Sep-2005 14:00 to 19-Oct-2005 10:00."
+4400,MA,1,,,12-Dec-2005,12-Dec-2005,D,4218,N,T08,"14:00 AWS serviced, no data.  10cm soil temp offset changed from -0.76 to
+-0.46. 30cm soil temp offset changed from -0.50 to -0.03."
+4953,MA,1,,,03-Oct-2006,03-Oct-2006,D,3645,N,T08,AWS serviced
+6408,MA,1,,NETRAD,06-Apr-2008,06-Apr-2008,D,4615,N,T08,"Net radiation reading high, no known reason"
+8088,MA,1,,,23-Dec-2010,25-Dec-2010,R,4988,N,T08,Some hours' data missing.
+6488,MA,1,,RAIN,01-Jan-2007,31-Dec-2999,R,4641,Y,T08,Rainfall data from the old guage on AWS 01 array is more accurate than on newer AWS 02.
+212,MA,1,,WSPEED,04-Jul-1995,01-Aug-1995,R,3195,N,T09,Wind speed values in error due to logger failure - set to null
+214,MA,1,,SWATER,17-Oct-1995,17-Oct-1995,D,3197,N,T09,Soil moisture block replaced with new one. No apparent improvement in values...
+213,MA,1,,SWATER,01-Sep-1994,31-Dec-1995,R,3196,Y,T09,Soil water values out of range - unreliable
+215,MA,1,,RAIN,01-Sep-1994,31-Dec-1995,R,3198,Y,T09,"Rainfall values may be in error, due to water in plug. Decision pending...."
+189,MA,1,,ALBGRD,01-Sep-1994,10-Jan-1996,R,3176,Y,T09,"Albedo values derive from instance readings hourly, and NOT hourly means. Corrected to be hourly means from 11.00 on 10-JAN-96"
+190,MA,1,,ALBSKY,01-Sep-1994,10-Jan-1996,R,3176,Y,T09,"Albedo values derive from instance readings hourly, and NOT hourly means. Corrected to be hourly means from 11.00 on 10-JAN-96"
+376,MA,1,,WSPEED,03-Jan-1997,02-Feb-1997,R,3289,N,T09,Data values unreliable and should not be used.
+371,MA,1,,WDIR,01-Jan-1997,10-Mar-1997,R,3284,N,T09,Potentiometer found to be faulty. Reverted to 6 degree resolution wind vane.
+372,MA,1,,WETTMP,01-Jan-1997,10-Mar-1997,R,3285,N,T09,Programming error found which has been causing an over-reading of 0.4 degrees.
+373,MA,1,,DRYTMP,01-Jan-1997,10-Mar-1997,R,3286,N,T09,Programming error found which has been causing an over-reading of 0.65 degrees.
+374,MA,1,,WETTMP,03-May-1997,29-May-1997,R,3287,N,T09,Wet bulb resevoir dried out sometime during 3 - 29 May. Values unreliable.
+375,MA,1,,WETTMP,31-Aug-1997,18-Sep-1997,R,3288,N,T09,Wick did not reach bottom of wet bulb resevoir. Values unreliable.
+659,MA,1,,NETRAD,04-Apr-1998,05-May-1998,R,3471,N,T09,Net radiometer dome broken by heavy rain on 4/4/98.  Dome replaced 5/5/98
+660,MA,1,,RAIN,01-Apr-1998,30-Jun-1998,R,3472,N,T09,Rain is over-reading by 4% in comparison with manual guage
+661,MA,1,,,01-Aug-1998,03-Aug-1998,R,3473,N,T09,"Electrical storm on 1/8/98 damaged logger. Error codes in data from 2/8/98 to 3/8/98. Communication problems from 3/8/98, leading to some missing data."
+783,MA,1,,SWATER,03-Jul-1999,04-Jul-1999,R,3561,N,T09,No soil moisture reading as a result of electrical testing.
+782,MA,1,,,06-Jul-1999,06-Jul-1999,D,3560,N,T09,Net radiometer domes and silica gel replaced (routine). Radiation screen was also cleaned.
+1272,MA,1,,,30-Jan-2001,31-Mar-2001,R,3733,Y,T09,"Where wet bulb temperature is greater than dry bulb, this is due to differential cooling/heating effects around 0 degrees C."
+2152,MA,1,,,15-Nov-2002,15-Nov-2002,D,3802,N,T09,net radiometer replaced
+2153,MA,1,,,05-Dec-2002,05-Dec-2002,D,3803,N,T09,"Sensor recalibration.  recalibration applied from this date for dry bulb.
+        dry old: 0,40,-0.3,39.7 new: 0,40,0.1,40.1
+This new calibration should probably be applied retrospectively, but as no date can be determined, it is only applied from day 339, 2002."
+2852,MA,1,,,28-Apr-2003,29-Apr-2003,R,3865,N,T09,data missing due to logger problems
+2853,MA,1,,,15-May-2003,15-May-2003,D,3865,N,T09,data missing due to logger problems
+2854,MA,1,,,08-Jun-2003,30-Jun-2003,R,3866,Y,T09,Net radiometer data after day 159 are dubious as a result of bird damage to the radiometer dome
+2855,MA,1,,,10-Aug-2003,10-Aug-2003,D,3867,N,T09,"Logger problems because of the hot weather on day 222. Data have been infilled with 5 minute instantaneous readings which are polled to a display unit from the same weather station. This activity was not affected, although the windspeed counter channel failed."
+3033,MA,1,,,10-Aug-2003,11-Aug-2003,R,3877,N,T09,Logger stopped because of the hot weather on day 222 17:00 to 223 10:00
+2856,MA,1,,,29-Aug-2003,02-Sep-2003,R,3868,N,T09,"Net radiometer replaced on day 241, although the new calibration values were
+not set until 0900 on day 245. According to site, the new calibration was clearly in error, and all values were recalculated assuming the previous calibration. Corrections may need to be made to these data. The incorrect span is 16.01 mv/kW, conpared with the previous calibration of 8.96 mv/kW."
+2857,MA,1,,,27-Aug-2003,11-Sep-2003,R,3869,N,T09,The raingauge was found to be blocked on day 254. Site compared with the manual data.  This indicated that it was functioning until day 239. Raindata between days 239 and 254 were deleted by site.
+3032,MA,1,,,24-Nov-2003,24-Nov-2003,D,3876,N,T09,"Net radiometer replaced again on day 328. New calibration of 12.38 mv/KW
+(apparantly) replacing old calibration of 16.01 mv/KW. I still have concerns
+that this is incorrect, as the net:global ration is approx 0.45 compared to
+0.55-0.62 for all other data. The original calibration has therefore been
+retained: ELE will be contacted again over the calibration. These data are 
+therefore potentially liable to change."
+3791,MA,1,,,17-Mar-2004,18-Mar-2004,R,3986,N,T09,16 hours data loss as a result of logger problems.
+3792,MA,1,,,24-Aug-2004,08-Sep-2004,R,3987,N,T09,"Lightening strike led to communications port failure (RS485), and the loss of 4 hours data. Dry bulb readings to 08/09/04 were affected, presumably as a result of terminal corrosion. Terminals tightened up, and logger test command indicates that all is OK."
+3790,MA,1,,,01-Jan-2004,31-Dec-2004,R,3985,Y,T09,Continuing concern over net radiation calibration.
+3793,MA,1,,,01-Sep-2004,31-Dec-2004,R,3988,Y,T09,"Treat dry temp with caution - fits well with manual reading, but dry temp falling below wet temp on occasions. Re-calibration may be required."
+4164,MA,1,,NETRAD,10-Jan-2005,10-Jan-2005,D,4138,N,T09,Dome changed on net radiometer as a result of crow damage.
+4163,MA,1,,,28-Jan-2005,28-Jan-2005,D,4137,N,T09,"11:00 - temperature calibration - dry bulb: from 0,40,0.1,40.1 to 0.1,40.6,0.1,40.5;  wet bulb: from 0,40,-0.4,39.6 to 0.1,40.5,0.1,40.6"
+4165,MA,1,,,07-May-2005,07-May-2005,D,4139,N,T09,Time on sunshine duration and atmospheric pressure logger advanced by 14 minutes.  Sunshine duration appears to have slipped relative to manual readings; need to check BF2 sensor for moisture.
+4166,MA,1,,,01-Jan-2005,30-Jun-2005,D,4140,N,T09,Continuing concern over calibration of net radiometer.  Intermittant fault on anemometer - poor electrical connection - corrected late June and erroneous data deleted.  Intermittant fault on soil temperature probe - need to check insulation - appears to coincide with surface wetness indicator reading high. Erroneous data deleted.
+4244,MA,1,,SWATER,22-Oct-2005,22-Oct-2005,D,4173,N,T09,No soil moisture reading for 3 hours on day 295 as a result of an interruption in power supply.
+4243,MA,1,,,19-Nov-2005,10-Dec-2005,R,4172,N,T09,Data loss from 1600 on day 320 to 1200 on day 344 as a result of operator error during downloading.
+4245,MA,1,,WSPEED,01-Mar-2005,31-Dec-2005,R,4174,Y,T09,Wind speed data from the beginning of March are dubious as there is significant discrepancy with manual data. Currently under investigation.
+5229,MA,1,,,30-Oct-2006,30-Oct-2006,D,4400,N,T09,"Temperature calibration (wet and dry bulb) changed as follows at 14.20 GMT on 30/10/2006:
+Ref P7 Experiemntal Note Book RB023
+Dry bulb: from: 0.1,40.6,0.1,40.5 to: 0.0,40.8,-0.4,39.7
+Wet bulb from: 0.1,40.5,0.1,40.6 to: 0.0,40.6,-0.8,39.5"
+5230,MA,1,,NETRAD,12-Dec-2006,12-Dec-2006,D,4401,N,T09,09.00 GMT Net radiometer removed and domes replaced
+5231,MA,1,,NETRAD,13-Dec-2006,13-Dec-2006,D,4402,N,T09,14:30 GMT Net radiometer replaced
+5232,MA,1,,,01-Jan-2006,31-Dec-2006,R,4403,N,T09,Intermittent fault with soil temperature probe
+7168,MA,1,,,07-Aug-2009,31-Dec-2009,R,4761,N,T09,"Gaps in date from day 219 (7-Aug) to 325 (21-Nov) and 345 (11-Dec) to end of year, due to logger problems."
+3094,MA,1,,,19-Dec-2001,02-Jan-2002,R,3879,N,T10,Failure in transfer from logger to PC
+3095,MA,1,,,06-Feb-2002,07-Feb-2002,R,3879,N,T10,Failure in transfer from logger to PC
+3096,MA,1,,,24-Apr-2002,09-May-2002,R,3879,N,T10,Failure in transfer from logger to PC
+3097,MA,1,,,23-Oct-2002,30-Oct-2002,R,3879,N,T10,Failure in transfer from logger to PC
+3093,MA,1,,,02-Jan-2003,12-Feb-2003,R,3574,N,T10,Data missing due to battery failure
+3092,MA,1,,,26-Feb-2003,26-Feb-2003,D,3645,N,T10,AWS serviced
+4688,MA,1,,,01-Apr-2003,01-Apr-2003,D,4297,N,T10,AWS serviced in April 2003.
+4689,MA,1,,,01-Oct-2005,01-Oct-2005,D,4298,N,T10,AWS serviced in October 2005.
+521,MA,1,,NETRAD,06-Dec-1997,23-Dec-1997,R,3390,N,T11,Net Radiometer domes replaced after failure.
+522,MA,1,,WDIR,24-Dec-1997,31-Dec-1997,R,3391,N,T11,Wind Vane arm found twisted 45 degrees anticlockwise by strong winds. Realigned.
+523,MA,1,,WETTMP,21-Jan-1998,21-Jan-1998,D,3392,N,T11,Wet bulb probe replaced.
+524,MA,1,,SURWET,28-Jan-1998,28-Jan-1998,D,3393,N,T11,Surface wetness probe moved from top of data logger to grass level position 2m W of AWS tripod
+3552,MA,1,,,16-Jan-2003,16-Jan-2003,D,3926,Y,T11,Started downloading data with storage module
+3553,MA,1,,,30-May-2003,30-May-2003,D,3927,N,T11,"Removed anemometer for maintenance 14:40, anemometer reconnected 14:15"
+3554,MA,1,,,18-Jul-2003,18-Jul-2003,D,3928,N,T11,"11:00, 13:00 and 14:00 - calibrated and changed dry temp probe"
+3555,MA,1,,,21-Jul-2003,21-Jul-2003,D,3929,Y,T11,10:00 - all temperature probes changed mv excitation from 2500 to 2035. Can now record up to 50oC
+3556,MA,1,,,26-Aug-2003,26-Aug-2003,D,3930,Y,T11,10:00 - started download using iPAQ(stopped using telemetry)
+3557,MA,1,,,10-Oct-2003,10-Oct-2003,D,3931,Y,T11,13:00 - first time programme changed
+3558,MA,1,,,16-Oct-2003,16-Oct-2003,D,3932,Y,T11,15:00 and 18:00 - changed programme
+3559,MA,1,,,20-Oct-2003,20-Oct-2003,D,3933,Y,T11,17:00 - changed programme
+3561,MA,1,,,23-Oct-2003,23-Oct-2003,D,3935,Y,T11,09:00 - changed programme (rewrote it to add time and hourly max gust)
+3562,MA,1,,,24-Oct-2003,24-Oct-2003,D,3936,Y,T11,10:00 - changed programme
+3563,MA,1,,,29-Oct-2003,29-Oct-2003,D,3937,Y,T11,15:00 - changed programme (rain and gust in separate table)
+3564,MA,1,,,30-Oct-2003,30-Oct-2003,D,3938,Y,T11,15:00 - changed programme
+3565,MA,1,,,31-Oct-2003,31-Oct-2003,D,3939,Y,T11,11:00 - changed programme
+3566,MA,1,,,03-Nov-2003,03-Nov-2003,D,3940,Y,T11,14:00 - changed programme
+3568,MA,1,,,12-Nov-2003,12-Nov-2003,D,3940,Y,T11,14:00 - changed programme
+3569,MA,1,,,14-Nov-2003,14-Nov-2003,D,3942,Y,T11,11:00 - uploaded new programme SNO 13A
+3570,MA,1,,,25-Nov-2003,25-Nov-2003,D,3297,Y,T11,New raingauge installed.
+3560,MA,1,,,22-Oct-2003,08-Dec-2003,R,3934,N,T11,12:00 - rainfall data probably wrong from here in original programme put back 8-12-2003 at 15:00
+3571,MA,1,,,08-Dec-2003,08-Dec-2003,D,3943,Y,T11,15:00 - uploaded old programme SNOBAC to try and correct rainfall
+3572,MA,1,,,10-Dec-2003,10-Dec-2003,D,3944,Y,T11,13:00 and 14:00 - calibrated temp probes
+3573,MA,1,,,17-Dec-2003,17-Dec-2003,D,3945,Y,T11,14:00 - changed over wet thermometor and calibrated wet and dry
+4204,MA,1,,NETRAD,09-Nov-2005,09-Nov-2005,D,4170,Y,T11,Net radiometer taken down 9-Nov-2005 14:00 as had been broken by hail in preceding week
+4203,MA,1,,,05-Oct-2005,31-Dec-2005,R,4169,Y,T11,"Theta probe data suspect, step change 5-Oct-2005 13:00 and negative readings end of year."
+7272,MA,1,,NETRAD,02-Mar-2006,04-Mar-2006,R,4804,N,T11,High negative net radiation readings (to -206.6) but no reason to suspect instrumentation
+7688,MA,1,,,26-Apr-2006,26-Apr-2006,D,4906,N,T11,Theta probe fixed
+7689,MA,1,,,13-Aug-2008,20-Aug-2008,R,4907,N,T11,Faulty connection
+7273,MA,1,,,01-Jan-2009,31-Dec-2009,R,4805,N,T11,Several outages during the year due to power loss and vandalism
+9368,MA,1,,,27-Jan-2010,30-Jan-2010,R,5130,N,T11,27- to 30-Jan-2010 - data lost except for 2 hours which are suspect
+9369,MA,1,,,16-Aug-2010,03-Feb-2011,R,5131,N,T11,"Logger stolen, no data"
+9372,MA,1,,,16-Aug-2010,03-Feb-2011,R,5134,N,T11,Dry temperature and relative humidity data available from TinyTag logger.
+9370,MA,1,,,03-Feb-2011,31-Dec-2999,R,5132,Y,T11,"New data logger installed on day 34 1500.
+Wet bulb and dry bulb sensors not attached.
+Surface wetness sensor giving incorrect readings until 117 1300, accurate from then onwards.
+Wind speed and wind direction giving erroneous readings until day 68 at 1600, accurate from then onwards.
+No Albedo sky or grass minimum recorded."
+9371,MA,1,,,03-Feb-2011,31-Dec-2999,R,5133,Y,T11,"Soil water content data from day 34 at 1500 from a Campbell CS616 Water Content Reflectometer rather than a Theta probe.
+Net radiation instrument changed from Q7 to NR_Lite Net Radiometer."
+1013,MA,1,,,09-Aug-1999,11-Aug-1999,R,3682,N,T12,Data missing - general failure of voltage
+1012,MA,1,,RAIN,23-Jun-1999,13-Aug-1999,R,3681,N,T12,All data for rainfall suspect - tipping bucket apparently not working
+1015,MA,1,,,13-Aug-1999,13-Aug-1999,R,3682,N,T12,Data missing - general failure of voltage
+1014,MA,1,,RAIN,13-Aug-1999,11-May-2000,R,3681,N,T12,All data for rainfall suspect - tipping bucket apparently not working
+1016,MA,1,,,29-Jun-2000,29-Jun-2000,D,3683,N,T12,AWS serviced - fault with tipping bucket corrected
+3859,MA,1,,,26-Mar-2004,07-Apr-2004,R,4011,N,T12,Logger being reprogrammed
+3858,MA,1,,,28-Jun-1999,01-Nov-2004,R,4010,Y,T12,Clock on AWS has been set to BST in summer (re-set to GMT 01-Nov-04 at 12:00)
+4338,MA,1,,RAIN,21-Sep-2005,21-Sep-2005,D,4192,N,T12,"AWS calibrated 21-Sep-2005 14:00-15:00.  Rain for 15:00 removed, any reading was water poured through rainguage was calibrated/tested."
+4334,MA,1,,RAIN,01-Dec-2005,01-Dec-2005,D,4188,N,T12,"08:00 rain recorded as 26.6, next nearest value for year was 12.  High rainfall week according to manual met records, however."
+4335,MA,1,,STMP30,01-Jan-2005,31-Dec-2005,R,4189,Y,T12,30cm temperature probe readings suspect - seem high compared to the 10cm probe.
+4337,MA,1,,,01-Jan-2005,31-Dec-2005,R,4191,Y,T12,"Difference between wet and dry temperature probes not very consistent, varies between -0.44 to 3.05.  Suspect this is partly due to the wet wick drying out, but not noted when the reservoir was topped up."
+5630,MA,1,,,17-Jul-2007,12-Sep-2007,R,4506,N,T12,The original AWS became inactive on 17/07/2007 (due to a fault).  The new weather station was erected on 12/09/2007.  Unfortunately this meant there was no opportunity to run the two in parallel for comparison.
+6548,MA,1,,RAIN,01-Jan-2008,04-Apr-2008,R,4647,N,T12,Issues with the tipping bucket at the start of the year.  Data for rainfall between 1-Jan-2008 and 4-Apr-2008 omitted.
+7650,MA,1,,,30-Mar-2009,30-Mar-2009,D,4898,N,T12,"2 hr downtime 1200-1400, no data."
+7651,MA,1,,,07-Jul-2009,07-Jul-2009,D,4899,N,T12,"AWS serviced (sensor changed accept TB and wind vane),  2hr downtime 1200-1400"
+7652,MA,1,,,29-Jul-2009,03-Aug-2009,R,4900,N,T12,System failure (reindeer chewed through power cable).
+7653,MA,1,,NETRAD,29-Jul-2009,21-Oct-2009,R,4901,N,T12,NR Lite sensor faulty (reindeer damage (chewed through cable))
+7654,MA,1,,,01-Jan-2009,31-Dec-2009,R,4902,N,T12,Anemometer cups often frozen through winter months.
+8830,MA,1,,,11-Jan-2011,16-Mar-2011,R,5063,N,T12,"WSPEED & WDIR FROZEN: Days
+11 (1100 to 0000)
+26 (2300) to 29 (1100)
+45 (0100 to 0400) + (0700 to 0800) + (1000)
+72 (1700) to 75 (1400)"
+8829,MA,1,,,28-Sep-2011,23-Nov-2011,R,5062,N,T12,"WSPEED & WDIR FAULTY: Days
+271 (0900) to 272 (0000)
+272 (1500)
+273 (0100 to 0200) + (0500 to 1900)
+275 (1600 to 1700)
+278 (0600 to 1600)
+281 (1300) to Day 282 (2000)
+282 (2300)
+283 (1200 to 1600)
+284 (1100 to 1300)
+285 (1200) to 289 (1800)
+289 (2100) to 290 (0500)
+292 (1400) to 299 (1100)
+311 (1200 to 1500)
+322 (0100) to 323 (0400)
+323 (1100 to 1500)
+324 (0400 to 0800) + (1100 to 1500)
+325 (0300 to 0400) + (1000 to 1600)
+327 (0200) to 335 (1200)"
+8831,MA,1,,,01-Jan-2011,01-Dec-2011,R,5064,N,T12,"WSPEED & WDIR SENSOR REPLACED DAY 299 (REPAIRED AND RE-DEPLOYED DAY 306) AND SENSOR REPLACED DAY 335.
+NETRAD FAULTY: Day 1 (0100) to Day 47 (1300)
+ALL SENSORS CHANGED 	DAY 243 (1300)"

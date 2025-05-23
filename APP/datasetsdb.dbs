@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="MySql" id="Project-29f" database="MySql" >
+	<schema name="datasetsdb" >
+		<table name="data_iris" spec="" >
+			<column name="sepal_length" type="decimal" length="2" decimal="1" jt="3" />
+			<column name="sepal_width" type="decimal" length="2" decimal="1" jt="3" />
+			<column name="petal_length" type="decimal" length="2" decimal="1" jt="3" />
+			<column name="petal_width" type="decimal" length="2" decimal="1" jt="3" />
+			<column name="variety" type="char" length="10" jt="1" />
+			<column name="dataset_iris_id" type="int" jt="4" mandatory="y" />
+			<column name="data_id" type="int" jt="4" mandatory="y" >
+				<identity><![CDATA[AUTO_INCREMENT]]></identity>
+			</column>
+			<index name="pk_data_iris" unique="PRIMARY_KEY" >
+				<column name="data_id" />
+			</index>
+			<fk name="fk_data_iris_dataset" virtual="y" to_schema="datasetsdb" to_table="dataset" update_action="setNull" >
+				<fk_column name="dataset_iris_id" pk="id" />
+			</fk>
+			<options><![CDATA[ENGINE=InnoDB AUTO_INCREMENT=151 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci]]></options>
+		</table>
+		<table name="data_pimas" spec="" >
+			<comment><![CDATA[Dataset pimas-indians-diabetes]]></comment>
+			<column name="times pregnant" type="int" jt="4" >
+				<comment><![CDATA[Number of times pregnant]]></comment>
+			</column>
+			<column name="glucose" type="int" jt="4" >
+				<comment><![CDATA[plasma glucose concentration]]></comment>
+			</column>
+			<column name="blood pressure" type="int" jt="4" >
+				<comment><![CDATA[diastolic blood pressure(mm Hg)]]></comment>
+			</column>
+			<column name="triceps thickness" type="int" jt="4" >
+				<comment><![CDATA[tricpes skin fold thickness]]></comment>
+			</column>
+			<column name="insulin" type="int" jt="4" >
+				<comment><![CDATA[2-hour serum insulin(mu u/ml)]]></comment>
+			</column>
+			<column name="bdp" type="decimal" length="4" decimal="1" jt="3" >
+				<comment><![CDATA[Body mass index(kg/m^2)]]></comment>
+			</column>
+			<column name="dpf" type="decimal" length="5" decimal="3" jt="3" >
+				<comment><![CDATA[diabetes pedigree function]]></comment>
+			</column>
+			<column name="age" type="int" jt="4" >
+				<comment><![CDATA[ages(years)]]></comment>
+			</column>
+			<column name="class" type="int" jt="4" />
+			<column name="dataset_id" type="int" jt="4" mandatory="y" />
+			<column name="data_id" type="int" jt="4" mandatory="y" >
+				<identity><![CDATA[AUTO_INCREMENT]]></identity>
+			</column>
+			<index name="pk_data_pimas" unique="PRIMARY_KEY" >
+				<column name="data_id" />
+			</index>
+			<fk name="fk_data_pimas_dataset" virtual="y" to_schema="datasetsdb" to_table="dataset" update_action="setNull" >
+				<fk_column name="dataset_id" pk="id" />
+			</fk>
+			<options><![CDATA[ENGINE=InnoDB AUTO_INCREMENT=769 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Dataset pimas-indians-diabetes']]></options>
+		</table>
+		<table name="dataset" >
+			<comment><![CDATA[This table contains the main information of a dataset.This one incldues NAME, TyPE OF CONTAINER, SIZE(OBERVATIONS,FEATURES), APPLICATION]]></comment>
+			<column name="id" type="int" jt="4" mandatory="y" >
+				<identity><![CDATA[AUTO_INCREMENT]]></identity>
+				<comment><![CDATA[IDENTIFIER OF DATASET]]></comment>
+			</column>
+			<column name="dataset_name" type="varchar" length="100" jt="12" mandatory="y" >
+				<comment><![CDATA[Name of dataset]]></comment>
+			</column>
+			<column name="dataset_container" type="varchar" length="255" jt="12" mandatory="y" >
+				<comment><![CDATA[This column contains the kind of data contains the dataset]]></comment>
+			</column>
+			<column name="dataset_observations" type="int" jt="4" >
+				<comment><![CDATA[This column describe the amount of observations/ features on the table]]></comment>
+			</column>
+			<column name="dataset_features" type="int" jt="4" >
+				<comment><![CDATA[This column describe the amount of observations/ features on the table]]></comment>
+			</column>
+			<column name="application" type="char" length="255" jt="1" mandatory="y" >
+				<comment><![CDATA[This column describes the goal of using this dataset on Machine Learning]]></comment>
+			</column>
+			<index name="pk_dataset" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<index name="unq_dataset_dataset_name" unique="UNIQUE_KEY" >
+				<column name="dataset_name" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="dimensionality" >
+			<comment><![CDATA[This table describes the behaviour of data as vectors in R^n]]></comment>
+			<column name="id" type="int" jt="4" mandatory="y" >
+				<comment><![CDATA[Identifier of table]]></comment>
+			</column>
+			<column name="sparsity" type="float" length="6" decimal="4" jt="7" >
+				<comment><![CDATA[Sparsity of data]]></comment>
+			</column>
+			<column name="distance between points" type="float" length="10" decimal="3" jt="7" >
+				<comment><![CDATA[The lowest distance between points in a dataset]]></comment>
+			</column>
+			<column name="dimensionality_reduced_number" type="int" jt="4" >
+				<comment><![CDATA[Number of dimensions most reduced]]></comment>
+			</column>
+			<index name="pk_dimensionality" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="fk_dimensionality_dataset" to_schema="datasetsdb" to_table="dataset" >
+				<fk_column name="id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="statistics" >
+			<comment><![CDATA[This table describes the behaviour data observations]]></comment>
+			<column name="id" type="int" jt="4" mandatory="y" >
+				<comment><![CDATA[Identifier of this table]]></comment>
+			</column>
+			<column name="mean" type="float" length="10" decimal="2" jt="7" >
+				<comment><![CDATA[Avg of data observations]]></comment>
+			</column>
+			<column name="variance" type="float" length="10" decimal="2" jt="7" >
+				<comment><![CDATA[Variance of data observations]]></comment>
+			</column>
+			<column name="standard_deviation" type="float" length="10" decimal="2" jt="7" >
+				<comment><![CDATA[std of data obsevations]]></comment>
+			</column>
+			<column name="curtosis" type="float" length="5" decimal="2" jt="7" >
+				<comment><![CDATA[Pattern of data observations]]></comment>
+			</column>
+			<column name="z-score" type="float" length="10" decimal="2" jt="7" >
+				<comment><![CDATA[Normality score of data observations]]></comment>
+			</column>
+			<column name="pca_one component" type="varchar" length="100" jt="12" >
+				<column_options><![CDATA[CHARACTER SET utf8 COLLATE utf8_general_ci]]></column_options>
+				<comment><![CDATA[Describes the maximum variance of data features]]></comment>
+			</column>
+			<column name="pca_one_component_score" type="float" length="5" decimal="2" jt="7" >
+				<comment><![CDATA[Score variance of data features]]></comment>
+			</column>
+			<index name="pk_statistics" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="fk_statistics_dataset" to_schema="datasetsdb" to_table="dataset" >
+				<fk_column name="id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+	</schema>
+	<connector name="MySql" database="MySql" driver_class="com.mysql.jdbc.Driver" driver_jar="mysql-connector-java-8.0.28.jar" driver_desc="Standard" host="localhost" port="3306" instance="datasetsdb" user="delta" passwd="RGVsdGFfb21pY3JvbjMwMDA/" />
+	<layout name="Main Layout" id="Layout-1643" show_relation="columns" >
+		<entity schema="datasetsdb" name="data_iris" color="3986C1" x="400" y="336" />
+		<entity schema="datasetsdb" name="data_pimas" color="3986C1" x="112" y="288" />
+		<entity schema="datasetsdb" name="dataset" color="3986C1" x="80" y="128" />
+		<entity schema="datasetsdb" name="dimensionality" color="3986C1" x="352" y="192" />
+		<entity schema="datasetsdb" name="statistics" color="3986C1" x="784" y="224" />
+		<callout x="48" y="48" pointer="Round" >
+			<comment><![CDATA[Create new tables by right-clicking the layout (diagram).
+Create multiple layouts with the same or different tables.
+Saving the model to file will save also the layouts and schema structure.]]></comment>
+		</callout>
+		<script name="SQL_Editor" id="Editor-124a" language="SQL" >
+			<string><![CDATA[DELETE  FROM data_file0;
+SELECT * FROM data_file0;
+truncate table data_file0;
+]]></string>
+		</script>
+		<script name="SQL_Editor_001" id="Editor-23c4" language="SQL" >
+			<string><![CDATA[SELECT * FROM data_file0;]]></string>
+		</script>
+		<script name="SQL_Editor_002" id="Editor-dfd" language="SQL" >
+			<string><![CDATA[SELECT * FROM data_pimas;
+SELECT * FROM data_iris;]]></string>
+		</script>
+	</layout>
+</project>
